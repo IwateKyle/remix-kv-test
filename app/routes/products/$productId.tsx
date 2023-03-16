@@ -15,10 +15,11 @@ export default function Product() {
 
   return (
     <div>
-      <p>Product</p>
-      {product.name}
-      <p>Products</p>
-      {/* ... */}
+      <p>Kyle</p>
+      <p>Record: {product}</p>
+      <p>First: {product.first}</p>
+      <p>Middle: {product.middle}</p>
+      <p>Last: {product.last}</p>
     </div>
   );
 }
