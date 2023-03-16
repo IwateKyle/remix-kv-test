@@ -4,7 +4,7 @@ import { useLoaderData } from "@remix-run/react";
 
 export const loader = async ({context}:LoaderArgs) => {
     return json(
-        await context.kmj.get('kyle');
+        await context.kmj.get('kyle')
     )
 }
 
